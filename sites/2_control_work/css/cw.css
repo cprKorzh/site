@@ -1,0 +1,179 @@
+*
+{
+    box-sizing: border-box;
+}
+html
+{
+    background-color: #B17E4F;
+}
+body
+{
+    margin-left: 10%;
+    position:absolute;
+    max-width: 80%;
+}
+p 
+{
+    line-height: 1.5;
+}
+.wrapper
+{
+    height: 100%;
+    padding-bottom: 5px;
+    margin: 20px;
+    border: none;
+    background-color: white;
+}
+header
+{
+    padding: 10px;
+    border: none;
+}
+.mr_over_mind
+{
+    margin: 35px;
+    float: right;
+    color: rgba(255, 255, 255, 0.363);
+}
+a
+{
+    text-decoration: none;
+}
+.active
+{
+    background-color: #1D3037;
+    text-decoration: none;
+}
+.container
+{
+    margin-top: 0px;
+    padding: 0px;
+    display:flex;
+}
+.mr_brown
+{
+    color: #B17E4F;
+}
+.mr_green
+{
+    color: #9AA57D;
+}
+.mr_black
+{
+    color: black;
+}
+.mr_white
+{
+    color: white;
+}
+img
+{
+    width: 100%;
+    text-align: center;
+}
+main
+{
+    width: 65%;
+    padding: 0% 0px 12% 30px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.left
+{
+    width: 200px;
+    margin-right: 20px;
+    padding: 20px;
+    border: none;
+}
+.right
+{
+    width: 30%;
+    margin-left: 50px;
+    padding: 1.1%;
+    border: none;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+table
+{
+    background-color:#F1EDE4;
+    padding: 7px;
+    
+}
+th
+{
+    background-color: #5C9FBC;
+    padding: 10px;
+    color: aliceblue;
+}
+td 
+{
+    padding: 10px;
+    width: 10%;
+    text-align: left;
+    color: #9D9E7E;
+    border-bottom: 1mm ridge #eae7e018;
+}
+td p
+{
+    line-height: 1.5;
+}
+.footer_style
+{
+    margin: 0px 10px 10px 10px;
+    padding-top: 30px;
+    padding-bottom: 3%;
+    text-align: center;
+    background-color: #D0E4A7;
+    color: black;
+}
+.block
+{
+    align-items: center;
+    margin: 0%;
+}
+.sitename
+{
+    margin-bottom: 10px;
+    font: 20px Arial;
+}
+nav
+{
+    display: flex;
+    width: 100%;
+    border: none;
+    background-color: #000000;
+    margin-bottom: 10px;
+}
+nav a
+{
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+    font: 15px Arial;
+    width: 100%;
+    text-align: center;
+}
+nav a:hover, nav a:active
+{
+    color: rgb(116, 116, 116);
+    text-decoration: underline;
+}
+main h2
+{
+    margin-top: 0px;
+    font-size: 42px;
+}
+h1,h2,h3
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+main p
+{
+    margin: 10px 0;
+    text-align: justify;
+    font: 15px Arial;
+    line-height: 2;
+}
+

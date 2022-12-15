@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css\style_site_visitka.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header class="clearfix">
+            <a href="1._Glavnaya.html" id="logo"><span class="pink">Сайт</span><i>визитка</i></a>
+            <nav id="mainnav">
+                <ul>
+                    <li class="active"><a href="2._Uslugi.html">УСЛУГИ</a></li>
+                    <li><a href="3._ONas.html">О НАС</a></li>
+                    <li><a href="4._Kontakty.html">КОНТАКТЫ</a></li>
+                    <li><a href="5._Clients.html">КЛИЕНТЫ</a></li>
+                </ul>
+            </nav>        
+        </header>        
+        <main>
+            <form action="" id="contact-form">
+                <div id="left-side">
+                    <label for="topic">ТЕМА</label><br>
+                    <select name="topic" id="topic" required>
+                        <option value="1">ЗАКАЗАТЬ СОРОК СЕДЬМОГО</option>
+                        <option value="2">ОСТАВИТЬ ХОРОШИЙ/ОТЛИЧНЫЙ ОТЗЫВ</option>
+                        <option value="3">ПОДЕЛИТЬ БИЗНЕС/ОТДАТЬ БИЗНЕС</option>
+                        <option value="4">ДРУГОЕ</option>
+                    </select>
+                </div>
+                <div id="left-side" class="form_item">
+                    <label for="name">ИМЯ</label><br>
+                    <input name="name" id="name" type="text" placeholder="Введите Ваше имя" required>
+                </div>
+                <div id="left-side" class="form_item">
+                    <label for="e-mail">E-MAIL</label><br>
+                    <input name="e-mail" id="e-mail" type="email" placeholder="Введите Ваш e-mail" required>
+                </div>
+                <div id="left-side">
+                    <label for="tel">ТЕЛЕФОН</label><br>
+                    <input name="tel" id="tel" type="tel" placeholder="+82-10-">
+                </div>
+                <div id="left-side">
+                    <label for="fax">ФАКС</label><br>
+                    <input name="fax" id="fax" type="fax" placeholder="+702-10-">
+                </div>
+                <div id="left-side">
+                    <label for="message">ТЕКСТ СООБЩЕНИЯ</label><br>
+                    <textarea name="message" id="message" rows="15" rows="10" placeholder=" " required>Введите Ваше сообщение...</textarea>
+                </div>
+                <div id="left-side">
+                    <!--<label for="radio">КАК С ВАМИ СВЯЗАТЬСЯ?</label><br>-->
+                    <!--<input type="radio" id="contactChoice1" name="contact" value="email">-->
+                    <!--<label for="contactChoice1">ЧЕРЕЗ ПОЧТУ</label>-->
+                    <!--<input type="radio" id="contactChoice2" name="contact" value="phone">-->
+                    <!--<label for="contactChoice2">ПО ТЕЛЕФОНУ</label>-->
+                    <!--<input type="radio" id="contactChoice3" name="contact" value="fax">-->
+                    <!--<label for="contactChoice3">ЧЕРЕЗ ФАКС</label>-->
+                </div>
+                <div id="left-side" class="form_item">
+                    <input type="submit" value="ОТПРАВИТЬ">
+                </div>
+            </form>
+        </main>
+    </div>
+    <footer>
+        <p class="footer_block"><a href="6. Form.html" style="color: white;">НАПИСАТЬ НАМ &#9650</a></p>
+        <p class="footer_block">&copy; Новая компания</p>
+        <div class="footer_icons">
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="img\instagram.png" alt="Never Gonna Give You Up" class="footer_img" hre></a>
+            <a href="https://vk.com/iddi55555" target="_blank"><img src="img\vk-social-logotype.png" alt="vk-social-logotype" class="footer_img"></a>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="img\facebook.png" alt="Never Gonna Give You Up" class="footer_img"></a>
+        </div>
+    </footer>   
+</body>
+</html>
